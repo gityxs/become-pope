@@ -1,0 +1,191 @@
+body{
+	background-color:#fff;
+	font-size:11pt;
+	color:#000;
+	font-family:verdana;
+	margin:0;
+	padding:0;
+	touch-action: none;
+
+		-webkit-touch-callout: none; /* iOS Safari */
+	    -webkit-user-select: none; /* Chrome/Safari/Opera */
+	     -khtml-user-select: none; /* Konqueror */
+	       -moz-user-select: none; /* Firefox */
+	        -ms-user-select: none; /* Internet Explorer/Edge */
+	            user-select: none; /* Non-prefixed version, currently
+	                                  not supported by any browser */
+}
+
+button.button1{
+	background-color:#fff;
+	font-size:12pt;
+	color:#000;
+	border:2px solid #000;
+}
+button.disabled1{
+	background-color:#333;
+	font-size:12pt;
+	color:#777;
+	border:2px solid #777;
+}
+
+button.button2{
+	background-color:#fff;
+	font-size:9pt;
+	color:#000;
+	border:1px solid #000;
+}
+button.disabled2{
+	background-color:#333;
+	font-size:9pt;
+	color:#777;
+	border:1px solid #777;
+}
+
+
+h1{font-size:15pt; color:#ccc; padding:0; margin:0;}
+h2{font-size:12pt; padding:0 0 0 0; margin:15px 0 0 0; text-align:center;}
+p.small{font-size:9pt;}
+.darkgreen{color:#0cb108;}
+.green{color:#11FF09;}
+.red{color:#FF0000;}
+.darkred{color:#bd0000;}
+.orange{color:#e79d1d;}
+.blue{color:#4e8ee5;}
+.purple{color:#a51ede;}
+
+
+a.standard:link { color:#2992ec; text-decoration:none;padding:0; margin: 0;}
+a.standard:visited { color:#2992ec; text-decoration:none;padding:0; margin:0;}
+a.standard:hover { color:#2992ec; text-decoration:none;padding:0; margin:0;}
+
+img.monster_icon{
+	border: 0px solid #333;
+	background-color:#000;
+}
+
+div.all{
+	width:90%;
+	margin:auto;
+	padding:10px;
+	display:block;
+	border:0px solid #777;
+}
+
+div.upper{
+	width:100%;
+	margin:auto;
+	display:block;
+	border:0px solid #777;
+	text-align:center;
+}
+
+.signature{
+	font-size: 9pt;
+	color: #666;
+	border: 0px solid #777;
+	float: right;
+	margin-right: 5px;
+}
+
+div.footer {
+	font-size: 9pt;
+	position: fixed;
+	bottom: 0%;
+	margin: 0 auto 0 auto;
+	width:100%;
+	background-color: #ddd;
+}
+
+table.gameboard{
+	border: 0px solid #000;
+	font-size: 9pt;
+	text-align: left;
+	border-collapse: collapse;/*in order to have a border around <tr>s*/
+}
+
+table.store{
+	border: 0px solid #000;
+	font-size: 9pt;
+	text-align: center;
+	border-collapse: collapse;/*in order to have a border around <tr>s*/
+}
+
+table.prestige{
+	border: 0px solid #000;
+	font-size: 9pt;
+	text-align: center;
+	border-collapse: collapse;/*in order to have a border around <tr>s*/
+	margin-bottom: 10px;
+	width:50%;
+}
+
+
+.upgrades_container{
+	vertical-align: top;
+}
+
+.prestige_item{
+	border: 1px dashed #000;
+}
+
+.prestige_hide{
+	border: 1px dashed #000;
+	background-color: #ddd;
+	font-size: 7pt;
+}
+
+.store_item{
+	border: 1px solid #000;
+}
+
+.store_item_content{
+	padding: 5px;
+}
+
+.prestige_counter{
+	font-size: 9pt;
+	color: #777;
+}
+
+.prestige_counter_highlight{
+	font-size: 9pt;
+	color: #2992ec;
+}
+
+.pb {
+        width: 200px;
+        height: 22px;
+        border: 0px solid #000;
+        background-color: #ccc;
+    }
+.pb div {
+				height: 100%;
+        color: #ccc;
+				padding: 0px;
+				padding-right:1px;
+				margin: 0px;
+        text-align: right;
+        line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+        width: 0;
+        background-color: #000;
+    }
+
+.pb2 {
+        width: 99%;
+        height: 11px;
+        border: 0px solid #000;
+        background-color: #ccc;
+				font-size: 6pt;
+    }
+.pb2 div {
+				height: 100%;
+        color: #ccc;
+				padding: 0px;
+				padding-right:1px;
+				margin: 0px;
+        text-align: right;
+        line-height: 11px; /* same as #progressBar height if we want text middle aligned */
+        width: 0;
+        background-color: #000;
+    }

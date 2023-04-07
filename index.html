@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>Become Pope</title>
+<link id="currentStyle" type="text/css" href="light.css" rel="Stylesheet"/>
+<script type="text/javascript" src="jq/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="jq/lz-string.min.js"></script>
+
+</head>
+<body>
+  <script src="chs.js"></script>
+  <script src="core.js"></script>
+
+
+<script type="text/javascript">
+
+  //I wanna see the code!!!
+  //No worries, here it is:
+  //https://louigiverona.com/pope/index_dev.html
+
+  var _0x30f3=['kNo','ccM','#church_upgrade','kkX','kNc','<b>Priest</b>','kNz','#player_table','#holiness_block','#cathedral_block','div','jjX','wwM','kNm','#tax_prestige_text','#preacher_pb','click','#small_church_upgrade','#statue_upgrade','rrM','qqM','kkM','iiM','#monastery_upgrade','yyX','ggX','prices','#wedding_upgrade','rrX','#audio_prestige','#inventory_table','#pray_button','button2','kNa','<b>Pope</b>','#holiness_label','hhX','kNh','xxX','zzM','#resume_game','ooX','#audio_building','prestige','ddM','#audio_tick','jjM','#statue_block','hhM','\x20per\x20believer','#dj_pb','kNe','kNg','removeClass','play','kNx','#tax_block','ready','#light','<b>Bishop</b>','Used','EndGame();','ttX','#audio_rank','<b>Cardinal</b>','.css','#audio_pope','\x20believers','#tax_pb','#pope_block','wwX','#believers_label','ppM','#audio_believer','#holywater_upgrade','decompressFromBase64','vvM','#preacher_label','#dj_block','#church_block','eeM','entities','#endgame_block','disabled','hide','#tax_upgrade','.prestige_item','floor','#prestige_table','uuX','kNf','#preaching_prestige_upgrade','#sins_upgrade','mmX','kNw','kNi','removeItem','#preach_button','#current_tax_label','#preacher_upgrade','#tele_pb','#holywater_block','#money_label','ggM','show','width','<b>Local\x20Minister</b>','attr','find','compressToBase64','#bishop_upgrade','kNn','disabled1','#audio_holiness','disabled2','#preach_pb','kNy','#store_table','random','Show\x20Prestige\x20&#x25BC;','ffX','#tele_block','iiX','llX','addClass','ssM','#monk_upgrade','kNd','popeGameData','llM','#holiness_limit_label','yyM','length','round','parse','#tax_prestige_upgrade','zzX','#small_church_block','player','pow','#sins_block','#resume_game_block','ssX','stringify','<b>Preacher</b>','eeX','kNu','href','#reset_game','Hide\x20Prestige\x20&#x25B2;','kNp','#pilgrimage_prestige_upgrade','#monk_block','#currentStyle','#prestige_hide','button1','kNs','ppX','prop','vvX','#prestige_label','#wedding_pb','#speed_prestige_upgrade','getItem','kNb','ceil','html','#audio_church','#tele_upgrade','Game\x20data\x20reset.\x20Reload\x20page.','#dark','Lobbying.\x20Increase\x20church\x20tax\x20by\x20$5\x20per\x20believer','#praying_prestige_upgrade','animate','kNq','kNr','#monk_pb','#bishop_block','nnM','cloneNode','#monastery_block','/10','kNk','#rank_label','text','ffM'];(function(_0x2c3169,_0x30f334){var _0x457578=function(_0x111c15){while(--_0x111c15){_0x2c3169['push'](_0x2c3169['shift']());}};_0x457578(++_0x30f334);}(_0x30f3,0x11d));var _0x4575=function(_0x2c3169,_0x30f334){_0x2c3169=_0x2c3169-0x0;var _0x457578=_0x30f3[_0x2c3169];return _0x457578;};var holiness=0x0;var holiness_limit=0x3e8;var holiness_level=0x0;var rank=_0x4575('0x2d');var money=0x0;var believers=0x0;var preachers=0x0;var monks=0x0;var churches=0x0;var preacher_interval;var monk_interval;var pray_interval;var preach_interval;var wedding_interval;var holywater_interval;var pilgrim_interval;var sins_interval;var tax_interval;var tele_interval;var dj_interval;var preacher_upgrade_price=0xa;var church_upgrade_price=0xf4240;var small_church_upgrade_price=0x186a0;var monastery_upgrade_price=0x7a120;var monk_upgrade_price=0x3e8;var cathedral_upgrade_price=0x2faf080;var vatican_upgrade_price=0x1dcd6500;var bishop_upgrade_price=0x7a120;var pope_upgrade_price=0x3b9aca00;var prestige_limit=0x0;var prestige_progress=0x0;var prestige_limit_flag=0x0;var holywater_speed=0x7d0;var wedding_speed=0x3e8;var sins_speed=0xfa0;var tax_speed=0xbb8;var dj_speed=0xbb8;var speed_multiplier=0x1;var preaching_multiplier=0x1;var praying_multiplier=0x1;var pilgrimage=0x0;var tax=0x1;var store_table_flag=0x0;var small_church_block_flag=0x1;var monastery_block_flag=0x0;var cathedral_block_flag=0x0;var css_flag=0x1;var prestige_hide_flag=0x0;var statue_upgrade_flag=0x0;var vatican_upgrade_flag=0x0;var bishop_upgrade_flag=0x0;var preach_pb;var preach_button;var believers_label;var store_table;var preacher_upgrade;var church_upgrade;var church_label;var preacher_label;var preacher_pb;var rank_label;var prestige_table;var prestige_counter;var prestige_limit_label;var prestige_label;var money_label;var wedding_upgrade;var wedding_pb;var wedding_block;var pray_button;var holiness_block;var dark;var light;var small_church_upgrade;var small_church_block;var church_block;var monastery_block;var holiness_label;var monastery_upgrade;var monk_block;var monk_label;var monk_upgrade;var monk_pb;var holiness_limit_label;var holywater_pb;var holywater_block;var holywater_upgrade;var pilgrimage_prestige_upgrade;var speed_prestige_upgrade;var preaching_prestige_upgrade;var resume_game;var resume_game_block;var player_table;var inventory_table;var sins_pb;var sins_block;var sins_upgrade;var tax_pb;var tax_block;var tax_upgrade;var cathedral_block;var cathedral_upgrade;var tax_prestige_upgrade;var current_tax_label;var tele_pb;var tele_block;var tele_upgrade;var prestige_hide;var praying_prestige_upgrade;var holiness_complete_block;var dj_pb;var dj_block;var dj_upgrade;var statue_block;var statue_upgrade;var vatican_block;var vatican_upgrade;var bishop_block;var bishop_upgrade;var pope_block;var pope_upgrade;var holiness_sign;var reset_game;$(document)[_0x4575('0x90')](function(){reset_game=$(_0x4575('0x31'));holiness_sign=$('#holiness_sign');pope_block=$(_0x4575('0x9c'));pope_upgrade=$('#pope_upgrade');bishop_block=$(_0x4575('0x4e'));bishop_upgrade=$(_0x4575('0xb'));vatican_block=$('#vatican_block');vatican_upgrade=$('#vatican_upgrade');statue_block=$(_0x4575('0x86'));statue_upgrade=$(_0x4575('0x69'));dj_pb=$(_0x4575('0x89'));dj_block=$(_0x4575('0xa5'));dj_upgrade=$('#dj_upgrade');holiness_complete_block=$('#holiness_complete_block');praying_prestige_upgrade=$(_0x4575('0x49'));prestige_hide=$(_0x4575('0x37'));tele_pb=$(_0x4575('0x1'));tele_block=$(_0x4575('0x16'));tele_upgrade=$(_0x4575('0x45'));current_tax_label=$(_0x4575('0xb9'));tax_prestige_upgrade=$(_0x4575('0x24'));cathedral_upgrade=$('#cathedral_upgrade');cathedral_block=$(_0x4575('0x60'));tax_pb=$(_0x4575('0x9b'));tax_block=$(_0x4575('0x8f'));tax_upgrade=$(_0x4575('0xac'));sins_pb=$('#sins_pb');sins_block=$(_0x4575('0x29'));sins_upgrade=$(_0x4575('0xb3'));inventory_table=$(_0x4575('0x75'));player_table=$(_0x4575('0x5e'));resume_game=$(_0x4575('0x7f'));resume_game_block=$(_0x4575('0x2a'));preaching_prestige_upgrade=$(_0x4575('0xb2'));speed_prestige_upgrade=$(_0x4575('0x3f'));pilgrimage_prestige_upgrade=$(_0x4575('0x34'));holywater_upgrade=$(_0x4575('0xa1'));holywater_block=$(_0x4575('0x2'));holywater_pb=$('#holywater_pb');holiness_limit_label=$(_0x4575('0x1f'));monk_pb=$(_0x4575('0x4d'));monk_upgrade=$(_0x4575('0x1b'));monk_label=$('#monk_label');monk_block=$(_0x4575('0x35'));monastery_upgrade=$(_0x4575('0x6e'));holiness_label=$(_0x4575('0x7a'));monastery_block=$(_0x4575('0x51'));church_block=$(_0x4575('0xa6'));small_church_block=$(_0x4575('0x26'));small_church_upgrade=$(_0x4575('0x68'));dark=$(_0x4575('0x47'));light=$(_0x4575('0x91'));holiness_block=$(_0x4575('0x5f'));pray_button=$(_0x4575('0x76'));wedding_block=$('#wedding_block');wedding_upgrade=$(_0x4575('0x72'));wedding_pb=$(_0x4575('0x3e'));money_label=$(_0x4575('0x3'));prestige_label=$(_0x4575('0x3d'));prestige_limit_label=$('#prestige_limit_label');prestige_counter=$('#prestige_counter');prestige_table=$(_0x4575('0xaf'));rank_label=$(_0x4575('0x54'));preacher_pb=$(_0x4575('0x66'));preacher_label=$(_0x4575('0xa4'));church_label=$('#church_label');church_upgrade=$(_0x4575('0x59'));preacher_upgrade=$(_0x4575('0x0'));store_table=$(_0x4575('0x12'));believers_label=$(_0x4575('0x9e'));preach_pb=$(_0x4575('0x10'));preach_button=$(_0x4575('0xb8'));if(localStorage[_0x4575('0x40')](_0x4575('0x1d'))){resume_game_block[_0x4575('0x5')]();player_table[_0x4575('0xab')]();inventory_table[_0x4575('0xab')]();}else{Init();}dark['click'](function(){$('#currentStyle')[_0x4575('0x8')]('href',$(this)[_0x4575('0x8')]('id')+_0x4575('0x98'));$(this)[_0x4575('0xab')]();light[_0x4575('0x5')]();css_flag=0x2;});light[_0x4575('0x67')](function(){$(_0x4575('0x36'))[_0x4575('0x8')](_0x4575('0x30'),$(this)['attr']('id')+_0x4575('0x98'));$(this)['hide']();dark['show']();css_flag=0x1;});prestige_hide[_0x4575('0x67')](function(){if(prestige_hide_flag==0x0){$(_0x4575('0xad'))[_0x4575('0xab')]();prestige_hide_flag=0x1;prestige_hide[_0x4575('0x43')](_0x4575('0x14'));}else{$(_0x4575('0xad'))[_0x4575('0x5')]();prestige_hide_flag=0x0;prestige_hide[_0x4575('0x43')](_0x4575('0x32'));}});resume_game[_0x4575('0x67')](function(){resume_game_block[_0x4575('0xab')]();player_table[_0x4575('0x5')]();inventory_table['show']();PlayAudio(0x1);LoadGame();});preacher_upgrade[_0x4575('0x67')](function(){PlayAudio(0x1);preachers++;preacher_label[_0x4575('0x55')](preachers);preacher_upgrade_price=Math[_0x4575('0xae')](preacher_upgrade_price+preacher_upgrade_price*0.8);preacher_upgrade[_0x4575('0x55')](numT(preacher_upgrade_price)+'\x20believers');InventoryUpdate();if(preachers==0x1){Preacher();}});monk_upgrade[_0x4575('0x67')](function(){PlayAudio(0x1);monks++;monk_label[_0x4575('0x55')](monks);money=money-monk_upgrade_price;InventoryUpdate();monk_upgrade_price=Math[_0x4575('0xae')](monk_upgrade_price+monk_upgrade_price*0.5);monk_upgrade[_0x4575('0x55')]('$'+numT(monk_upgrade_price));InventoryUpdate();if(monks==0x1){Monk();}});preach_button[_0x4575('0x67')](function(){PreachDisable();PlayAudio(0x1);Preach();});pray_button[_0x4575('0x67')](function(){PrayDisable();PlayAudio(0x1);Pray();});wedding_upgrade[_0x4575('0x67')](function(){var _0x489945=0x0;PlayAudio(0x1);wedding_pb['show']();wedding_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])['removeClass'](_0x4575('0x77'))[_0x4575('0x19')](_0x4575('0xf'));wedding_interval=setInterval(function(){_0x489945++;progress(_0x489945,wedding_pb);if(_0x489945>=0x64){clearInterval(wedding_interval);progress(0x0,wedding_pb);wedding_upgrade['prop']('disabled',![])[_0x4575('0x8c')](_0x4575('0xf'))[_0x4575('0x19')](_0x4575('0x77'));money+=0xc350;PrestigeUpdate(0x3e8);InventoryUpdate();PlayAudio(0x4);}},wedding_speed*speed_multiplier);});dj_upgrade[_0x4575('0x67')](function(){var _0x38bf0f=0x0;PlayAudio(0x1);dj_pb['show']();dj_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])['removeClass'](_0x4575('0x77'))[_0x4575('0x19')](_0x4575('0xf'));dj_interval=setInterval(function(){_0x38bf0f++;progress(_0x38bf0f,dj_pb);if(_0x38bf0f>=0x64){clearInterval(dj_interval);progress(0x0,dj_pb);dj_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),![])[_0x4575('0x8c')](_0x4575('0xf'))[_0x4575('0x19')](_0x4575('0x77'));money+=0x7a120;believers+=Math[_0x4575('0xae')](Math[_0x4575('0x13')]()*0x64+0x1);PrestigeUpdate(0x186a0);InventoryUpdate();PlayAudio(0x4);}},dj_speed*speed_multiplier);});holywater_upgrade['click'](function(){var _0x1c5185=0x0;PlayAudio(0x1);holywater_pb[_0x4575('0x5')]();holywater_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])[_0x4575('0x8c')](_0x4575('0x77'))[_0x4575('0x19')](_0x4575('0xf'));holywater_interval=setInterval(function(){_0x1c5185++;progress(_0x1c5185,holywater_pb);if(_0x1c5185>=0x64){clearInterval(holywater_interval);progress(0x0,holywater_pb);holywater_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),![])[_0x4575('0x8c')](_0x4575('0xf'))['addClass'](_0x4575('0x77'));money+=0x186a0;PrestigeUpdate(0x3e8);InventoryUpdate();PlayAudio(0x4);}},holywater_speed*speed_multiplier);});sins_upgrade[_0x4575('0x67')](function(){var _0x4580b0=0x0;PlayAudio(0x1);sins_pb['show']();sins_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])[_0x4575('0x8c')](_0x4575('0x77'))[_0x4575('0x19')]('disabled2');sins_interval=setInterval(function(){_0x4580b0++;progress(_0x4580b0,sins_pb);if(_0x4580b0>=0x64){clearInterval(sins_interval);progress(0x0,sins_pb);sins_upgrade[_0x4575('0x3b')]('disabled',![])[_0x4575('0x8c')](_0x4575('0xf'))['addClass'](_0x4575('0x77'));money+=0x30d40;PrestigeUpdate(0x1388);InventoryUpdate();PlayAudio(0x4);}},sins_speed*speed_multiplier);});tax_upgrade[_0x4575('0x67')](function(){var _0x5e2c7a=0x0;PlayAudio(0x1);tax_pb[_0x4575('0x5')]();tax_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])[_0x4575('0x8c')](_0x4575('0x77'))[_0x4575('0x19')]('disabled2');tax_interval=setInterval(function(){_0x5e2c7a++;progress(_0x5e2c7a,tax_pb);if(_0x5e2c7a>=0x64){clearInterval(tax_interval);progress(0x0,tax_pb);tax_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),![])[_0x4575('0x8c')](_0x4575('0xf'))[_0x4575('0x19')](_0x4575('0x77'));money+=believers*tax;PrestigeUpdate(0x2710);InventoryUpdate();PlayAudio(0x4);}},tax_speed*speed_multiplier);});tele_upgrade[_0x4575('0x67')](function(){var _0x3188b5=0x0;PlayAudio(0x1);tele_pb[_0x4575('0x5')]();tele_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])[_0x4575('0x8c')](_0x4575('0x77'))[_0x4575('0x19')](_0x4575('0xf'));tele_interval=setInterval(function(){_0x3188b5++;progress(_0x3188b5,tele_pb);if(_0x3188b5>=0x64){clearInterval(tele_interval);progress(0x0,tele_pb);tele_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),![])[_0x4575('0x8c')](_0x4575('0xf'))[_0x4575('0x19')](_0x4575('0x77'));believers+=Math[_0x4575('0xae')](Math['random']()*0x3+0x1)*0x186a0;PrestigeUpdate(0x186a0);InventoryUpdate();PlayAudio(0x4);}},0x1f4);});statue_upgrade[_0x4575('0x67')](function(){PlayAudio(0x1);money+=0x11e1a300;statue_upgrade_flag=0x2;statue_block[_0x4575('0xab')]();pilgrimage=0x2;clearInterval(pilgrim_interval);InventoryUpdate();});pope_upgrade[_0x4575('0x67')](function(){PlayAudio(0x9);rank=_0x4575('0x79');rank_label[_0x4575('0x43')](rank);pope_block[_0x4575('0xab')]();bishop_block[_0x4575('0xab')]();setTimeout(_0x4575('0x94'),0xbb8);});vatican_upgrade[_0x4575('0x67')](function(){PlayAudio(0x8);rank=_0x4575('0x97');rank_label[_0x4575('0x43')](rank);money=money-vatican_upgrade_price;vatican_upgrade_flag=0x2;vatican_block['hide']();bishop_upgrade_flag=0x1;bishop_block['show']();pope_block[_0x4575('0x5')]();InventoryUpdate();});bishop_upgrade[_0x4575('0x67')](function(){PlayAudio(0x1);money=money-bishop_upgrade_price;bishop_upgrade_price=Math[_0x4575('0xae')](bishop_upgrade_price+bishop_upgrade_price*0.15);bishop_upgrade[_0x4575('0x55')]('$'+numT(bishop_upgrade_price));believers+=Math[_0x4575('0xae')](Math[_0x4575('0x13')]()*0x989680+0x989680);InventoryUpdate();});monastery_upgrade[_0x4575('0x67')](function(){PlayAudio(0x5);money=money-monastery_upgrade_price;InventoryUpdate();monk_block[_0x4575('0x5')]();monastery_block[_0x4575('0xab')]();monastery_block_flag=0x2;});small_church_upgrade[_0x4575('0x67')](function(){money=money-small_church_upgrade_price;PlayAudio(0x5);holiness_block[_0x4575('0x5')]();pray_button[_0x4575('0x5')]();preach_button[_0x4575('0xab')]();if(preachers<=0x0){preachers++;preacher_label['text'](preachers);Preacher();}rank=_0x4575('0x7');rank_label['html'](rank);wedding_block[_0x4575('0x5')]();church_block[_0x4575('0x5')]();small_church_block[_0x4575('0xab')]();small_church_block_flag=0x2;InventoryUpdate();});church_upgrade[_0x4575('0x67')](function(){PlayAudio(0x5);BuildChurch();});cathedral_upgrade[_0x4575('0x67')](function(){PlayAudio(0x8);rank=_0x4575('0x92');rank_label['html'](rank);cathedral_block_flag=0x2;cathedral_block[_0x4575('0xab')]();church_block[_0x4575('0xab')]();if(pilgrimage==0x1){statue_upgrade_flag=0x1;statue_block[_0x4575('0x5')]();}vatican_upgrade_flag=0x1;vatican_block[_0x4575('0x5')]();money=money-cathedral_upgrade_price;believers+=0x7a120*churches;SaveGame();InventoryUpdate();});preaching_prestige_upgrade[_0x4575('0x67')](function(){PlayAudio(0x1);preaching_multiplier=0xa;preaching_prestige_upgrade[_0x4575('0x55')]('Used');preaching_prestige_upgrade['prop'](_0x4575('0xaa'),!![])[_0x4575('0x8c')](_0x4575('0x77'))[_0x4575('0x19')]('disabled2');Init();});praying_prestige_upgrade[_0x4575('0x67')](function(){PlayAudio(0x1);praying_multiplier=0x4;praying_prestige_upgrade['text'](_0x4575('0x93'));praying_prestige_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])['removeClass'](_0x4575('0x77'))['addClass'](_0x4575('0xf'));Init();});speed_prestige_upgrade[_0x4575('0x67')](function(){PlayAudio(0x1);speed_multiplier=0.1;speed_prestige_upgrade['text'](_0x4575('0x93'));speed_prestige_upgrade[_0x4575('0x3b')]('disabled',!![])[_0x4575('0x8c')](_0x4575('0x77'))[_0x4575('0x19')]('disabled2');Init();});pilgrimage_prestige_upgrade[_0x4575('0x67')](function(){PlayAudio(0x1);pilgrimage=0x1;pilgrimage_prestige_upgrade[_0x4575('0x55')](_0x4575('0x93'));pilgrimage_prestige_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])[_0x4575('0x8c')](_0x4575('0x77'))[_0x4575('0x19')](_0x4575('0xf'));Pilgrimage();Init();});tax_prestige_upgrade[_0x4575('0x67')](function(){PlayAudio(0x1);if(tax<0xa){tax=0xa;$(_0x4575('0x65'))[_0x4575('0x55')](_0x4575('0x48'));}else{tax+=0x5;}tax_upgrade[_0x4575('0x55')]('$'+tax+_0x4575('0x88'));current_tax_label[_0x4575('0x55')](tax);Init();});reset_game[_0x4575('0x67')](function(){localStorage[_0x4575('0xb7')](_0x4575('0x1d'));$(_0x4575('0xa9'))[_0x4575('0x55')](_0x4575('0x46'));});});function Pray(){var _0x37a588=0x0;pray_interval=setInterval(function(){_0x37a588++;progress(_0x37a588,preach_pb);if(_0x37a588>=0x64){clearInterval(pray_interval);holiness+=praying_multiplier;HolinessUpdate();PrestigeUpdate(0x3e8);PlayAudio(0x2);progress(0x0,preach_pb);PrayEnable();}},0xa);}function Monk(){var _0x5ed38c=0x0;monk_pb['show']();monk_interval=setInterval(function(){_0x5ed38c++;if(_0x5ed38c>0x64)_0x5ed38c=0x0;progress(_0x5ed38c,monk_pb);if(_0x5ed38c>=0x64){holiness+=monks*praying_multiplier;HolinessUpdate();InventoryUpdate();PrestigeUpdate(0x64*monks);PlayAudio(0x3);}},0xa);}function Preach(){var _0x63a675=0x0;preach_interval=setInterval(function(){_0x63a675++;progress(_0x63a675,preach_pb);if(_0x63a675>=0x64){clearInterval(preach_interval);believers+=preaching_multiplier;money+=Math[_0x4575('0xae')](Math[_0x4575('0x13')]()*0x1f4+0x1)*preaching_multiplier;InventoryUpdate();PrestigeUpdate(0x1*preaching_multiplier);PlayAudio(0x2);if(store_table_flag==0x0&&believers>=0x5){store_table_flag=0x1;prestige_progress=0x0;prestige_label[_0x4575('0x55')](prestige_progress);store_table[_0x4575('0x5')]();prestige_counter[_0x4575('0x5')]();}progress(0x0,preach_pb);PreachEnable();}},0xa);}function Preacher(){var _0x1ee8b1=0x0;preacher_pb[_0x4575('0x5')]();preacher_interval=setInterval(function(){_0x1ee8b1++;if(_0x1ee8b1>0x64)_0x1ee8b1=0x0;progress(_0x1ee8b1,preacher_pb);if(_0x1ee8b1>=0x64){believers+=preachers*preaching_multiplier;money+=Math['floor'](Math[_0x4575('0x13')]()*0x1f4+0x1)*preachers*preaching_multiplier;InventoryUpdate();PrestigeUpdate(0x1*preachers*preaching_multiplier);PlayAudio(0x3);}},0xa);}function BuildChurch(){churches++;if(churches<0xa){church_label[_0x4575('0x55')](churches+'/10');}else{church_label['text'](churches);}believers+=0x1388*churches;money=money-church_upgrade_price;church_upgrade_price=Math[_0x4575('0x42')](church_upgrade_price+church_upgrade_price*0.3);if(churches==0x1){rank=_0x4575('0x5c');rank_label[_0x4575('0x43')](rank);PlayAudio(0x8);SaveGame();}if(churches==0xa){cathedral_block_flag=0x1;cathedral_block[_0x4575('0x5')]();PlayAudio(0x4);SaveGame();}church_upgrade[_0x4575('0x55')]('$'+numT(church_upgrade_price));InventoryUpdate();PrestigeUpdate(0x2710);}function SaveGame(){let _0x1498a0={'player':[money,prestige_progress,prestige_limit,rank,holiness,holiness_limit],'entities':[believers,preachers,monks,churches],'ui':[css_flag,store_table_flag,monastery_block_flag,small_church_block_flag,cathedral_block_flag,statue_upgrade_flag,vatican_upgrade_flag,bishop_upgrade_flag],'prices':[preacher_upgrade_price,church_upgrade_price,monk_upgrade_price,bishop_upgrade_price],'prestige':[pilgrimage,speed_multiplier,preaching_multiplier,tax,praying_multiplier]};localStorage['setItem']('popeGameData',LZString[_0x4575('0xa')](JSON[_0x4575('0x2c')](_0x1498a0)));}function LoadGame(){let _0x15cfc4=localStorage[_0x4575('0x40')](_0x4575('0x1d'));_0x15cfc4=JSON[_0x4575('0x23')](LZString[_0x4575('0xa2')](_0x15cfc4));money=parseInt(_0x15cfc4[_0x4575('0x27')][0x0]);prestige_progress=parseInt(_0x15cfc4[_0x4575('0x27')][0x1]);prestige_label[_0x4575('0x55')](numT(prestige_progress));prestige_limit=parseInt(_0x15cfc4[_0x4575('0x27')][0x2]);prestige_limit_label[_0x4575('0x55')](numT(prestige_limit));if(prestige_progress>=prestige_limit){prestige_limit_flag=0x1;prestige_table['show']();}rank=_0x15cfc4[_0x4575('0x27')][0x3];rank_label[_0x4575('0x43')](rank);holiness=parseInt(_0x15cfc4['player'][0x4]);holiness_label['text'](numT(holiness));holiness_limit=parseInt(_0x15cfc4[_0x4575('0x27')][0x5]);holiness_limit_label[_0x4575('0x55')](numT(holiness_limit));if(holiness>=0x3e8){holiness_level++;holywater_block[_0x4575('0x5')]();}if(holiness>=0xfa0){holiness_level++;sins_block[_0x4575('0x5')]();}if(holiness>=0x1b58){holiness_level++;dj_block[_0x4575('0x5')]();}if(holiness>=0x2710){holiness_level++;tele_block[_0x4575('0x5')]();}if(holiness>=0x32c8){holiness_level++;tax_block[_0x4575('0x5')]();holiness_block[_0x4575('0xab')]();holiness_complete_block['show']();}believers=parseInt(_0x15cfc4['entities'][0x0]);preachers=parseInt(_0x15cfc4[_0x4575('0xa8')][0x1]);preacher_label[_0x4575('0x55')](preachers);if(preachers>0x0){Preacher();}monks=parseInt(_0x15cfc4[_0x4575('0xa8')][0x2]);monk_label[_0x4575('0x55')](monks);if(monks>0x0){setTimeout('Monk();',0xfa);monk_block['show']();}churches=parseInt(_0x15cfc4[_0x4575('0xa8')][0x3]);if(churches<0xa){church_label[_0x4575('0x55')](churches+_0x4575('0x52'));}else{church_label[_0x4575('0x55')](churches);}preacher_upgrade_price=parseInt(_0x15cfc4[_0x4575('0x71')][0x0]);preacher_upgrade[_0x4575('0x55')](numT(preacher_upgrade_price)+_0x4575('0x9a'));church_upgrade_price=parseInt(_0x15cfc4[_0x4575('0x71')][0x1]);church_upgrade['text']('$'+numT(church_upgrade_price));monk_upgrade_price=parseInt(_0x15cfc4[_0x4575('0x71')][0x2]);monk_upgrade[_0x4575('0x55')]('$'+numT(monk_upgrade_price));bishop_upgrade_price=parseInt(_0x15cfc4[_0x4575('0x71')][0x3]);bishop_upgrade[_0x4575('0x55')]('$'+numT(bishop_upgrade_price));bishop_upgrade_flag=parseInt(_0x15cfc4['ui'][0x7]);if(bishop_upgrade_flag==0x1){bishop_block[_0x4575('0x5')]();pope_block[_0x4575('0x5')]();}vatican_upgrade_flag=parseInt(_0x15cfc4['ui'][0x6]);if(vatican_upgrade_flag==0x1){vatican_block[_0x4575('0x5')]();}else if(vatican_upgrade_flag==0x2){vatican_block[_0x4575('0xab')]();}statue_upgrade_flag=parseInt(_0x15cfc4['ui'][0x5]);if(statue_upgrade_flag==0x1){statue_block[_0x4575('0x5')]();}else if(statue_upgrade_flag==0x2){statue_block[_0x4575('0xab')]();pilgrimage=0x2;}cathedral_block_flag=parseInt(_0x15cfc4['ui'][0x4]);if(churches>=0x5&&cathedral_block_flag==0x1){cathedral_block[_0x4575('0x5')]();}small_church_block_flag=parseInt(_0x15cfc4['ui'][0x3]);if(small_church_block_flag==0x1){small_church_block[_0x4575('0x5')]();}else{small_church_block[_0x4575('0xab')]();if(holiness<0x32c8){holiness_block[_0x4575('0x5')]();}pray_button[_0x4575('0x5')]();preach_button[_0x4575('0xab')]();wedding_block[_0x4575('0x5')]();if(cathedral_block_flag!=0x2){church_block[_0x4575('0x5')]();}}monastery_block_flag=parseInt(_0x15cfc4['ui'][0x2]);if(monastery_block_flag==0x1){monastery_block['show']();}store_table_flag=parseInt(_0x15cfc4['ui'][0x1]);if(store_table_flag==0x1){store_table[_0x4575('0x5')]();prestige_counter[_0x4575('0x5')]();}css_flag=parseInt(_0x15cfc4['ui'][0x0]);if(css_flag==0x2){$(_0x4575('0x36'))[_0x4575('0x8')](_0x4575('0x30'),dark[_0x4575('0x8')]('id')+_0x4575('0x98'));dark[_0x4575('0xab')]();light[_0x4575('0x5')]();}praying_multiplier=parseInt(_0x15cfc4[_0x4575('0x82')][0x4]);if(praying_multiplier==0x4){praying_prestige_upgrade[_0x4575('0x55')](_0x4575('0x93'));praying_prestige_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])[_0x4575('0x8c')](_0x4575('0x77'))['addClass'](_0x4575('0xf'));}tax=parseInt(_0x15cfc4[_0x4575('0x82')][0x3]);tax_upgrade[_0x4575('0x55')]('$'+tax+_0x4575('0x88'));current_tax_label[_0x4575('0x55')](tax);preaching_multiplier=parseInt(_0x15cfc4[_0x4575('0x82')][0x2]);if(preaching_multiplier==0xa){preaching_prestige_upgrade[_0x4575('0x55')](_0x4575('0x93'));preaching_prestige_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])['removeClass'](_0x4575('0x77'))[_0x4575('0x19')]('disabled2');}speed_multiplier=parseFloat(_0x15cfc4[_0x4575('0x82')][0x1]);if(speed_multiplier==0.1){speed_prestige_upgrade['text'](_0x4575('0x93'));speed_prestige_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])['removeClass'](_0x4575('0x77'))[_0x4575('0x19')]('disabled2');}pilgrimage=parseInt(_0x15cfc4[_0x4575('0x82')][0x0]);if(pilgrimage!=0x0){pilgrimage_prestige_upgrade[_0x4575('0x55')](_0x4575('0x93'));pilgrimage_prestige_upgrade[_0x4575('0x3b')]('disabled',!![])[_0x4575('0x8c')]('button2')[_0x4575('0x19')]('disabled2');}if(pilgrimage==0x1){Pilgrimage();}if(tax>=0xa){$(_0x4575('0x65'))[_0x4575('0x55')]('Lobbying.\x20Increase\x20church\x20tax\x20by\x20$5\x20per\x20believer');}InventoryUpdate();}function HolinessUpdate(){if(holiness>=holiness_limit){if(holiness_level==0x0&&holiness>=0x3e8){holiness_level++;holywater_block[_0x4575('0x5')]();PlayAudio(0x7);}if(holiness_level==0x1&&holiness>=0xfa0){holiness_level++;sins_block[_0x4575('0x5')]();PlayAudio(0x7);}if(holiness_level==0x2&&holiness>=0x1b58){holiness_level++;dj_block[_0x4575('0x5')]();PlayAudio(0x7);}if(holiness_level==0x3&&holiness>=0x2710){holiness_level++;tele_block[_0x4575('0x5')]();PlayAudio(0x7);}if(holiness_level==0x4&&holiness>=0x32c8){holiness_level++;tax_block[_0x4575('0x5')]();holiness_block['hide']();holiness_complete_block[_0x4575('0x5')]();PlayAudio(0x7);}holiness_limit=holiness_limit+0xbb8;SaveGame();}if(monastery_block_flag==0x0&&holiness>=0x5){monastery_block_flag=0x1;monastery_block[_0x4575('0x5')]();PlayAudio(0x7);}holiness_label['text'](numT(holiness));holiness_limit_label[_0x4575('0x55')](numT(holiness_limit));}function InventoryUpdate(){believers_label[_0x4575('0x55')](numT(believers));money_label[_0x4575('0x55')](numT(money));StoreState();let _0x43c123=Math[_0x4575('0xae')](Math[_0x4575('0x13')]()*0x32+0x1);if(_0x43c123==0x5){SaveGame();}}function PrestigeUpdate(_0x5a28f6){prestige_progress+=_0x5a28f6;prestige_label[_0x4575('0x55')](numT(prestige_progress));if(prestige_limit_flag==0x0&&prestige_progress>=prestige_limit){PlayAudio(0x6);prestige_limit_flag=0x1;prestige_table[_0x4575('0x5')]();}}function Init(){holiness=0x0;holiness_label[_0x4575('0x55')](0x0);holiness_limit=0x3e8;holiness_limit_label[_0x4575('0x55')](numT(holiness_limit));holiness_level=0x0;rank='<b>Preacher</b>';rank_label[_0x4575('0x43')](rank);money=0x0;money_label['text'](numT(money));believers=0x0;believers_label[_0x4575('0x55')](believers);preachers=0x0;preacher_label[_0x4575('0x55')](preachers);monks=0x0;monk_label[_0x4575('0x55')](monks);churches=0x0;church_label[_0x4575('0x55')]('0/10');clearInterval(preacher_interval);clearInterval(monk_interval);clearInterval(wedding_interval);clearInterval(holywater_interval);clearInterval(preach_interval);clearInterval(pray_interval);clearInterval(sins_interval);clearInterval(tax_interval);clearInterval(tele_interval);clearInterval(dj_interval);store_table[_0x4575('0xab')]();wedding_block[_0x4575('0xab')]();dj_block[_0x4575('0xab')]();holywater_block['hide']();sins_block['hide']();tax_block[_0x4575('0xab')]();tele_block[_0x4575('0xab')]();statue_block[_0x4575('0xab')]();vatican_block['hide']();bishop_block['hide']();pope_block['hide']();monastery_block['hide']();monk_block[_0x4575('0xab')]();church_block[_0x4575('0xab')]();cathedral_block[_0x4575('0xab')]();small_church_block[_0x4575('0x5')]();holiness_block[_0x4575('0xab')]();holiness_complete_block[_0x4575('0xab')]();pray_button[_0x4575('0xab')]();preach_button['show']();prestige_table['hide']();prestige_counter[_0x4575('0xab')]();prestige_hide[_0x4575('0x43')](_0x4575('0x32'));$(_0x4575('0xad'))[_0x4575('0x5')]();sins_pb[_0x4575('0xab')]();progress(0x0,sins_pb);tax_pb[_0x4575('0xab')]();progress(0x0,tax_pb);wedding_pb[_0x4575('0xab')]();progress(0x0,wedding_pb);holywater_pb[_0x4575('0xab')]();progress(0x0,holywater_pb);preacher_pb[_0x4575('0xab')]();progress(0x0,preacher_pb);monk_pb[_0x4575('0xab')]();progress(0x0,monk_pb);tele_pb[_0x4575('0xab')]();progress(0x0,tele_pb);dj_pb[_0x4575('0xab')]();progress(0x0,dj_pb);progress(0x0,preach_pb);holywater_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),![])['removeClass'](_0x4575('0xf'))[_0x4575('0x19')](_0x4575('0x77'));wedding_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),![])[_0x4575('0x8c')](_0x4575('0xf'))[_0x4575('0x19')](_0x4575('0x77'));tax_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),![])[_0x4575('0x8c')](_0x4575('0xf'))[_0x4575('0x19')](_0x4575('0x77'));sins_upgrade[_0x4575('0x3b')]('disabled',![])[_0x4575('0x8c')](_0x4575('0xf'))[_0x4575('0x19')](_0x4575('0x77'));dj_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),![])[_0x4575('0x8c')](_0x4575('0xf'))['addClass'](_0x4575('0x77'));tele_upgrade[_0x4575('0x3b')]('disabled',![])[_0x4575('0x8c')](_0x4575('0xf'))[_0x4575('0x19')](_0x4575('0x77'));store_table_flag=0x0;monastery_block_flag=0x0;small_church_block_flag=0x1;cathedral_block_flag=0x0;prestige_hide_flag=0x0;statue_upgrade_flag=0x0;vatican_upgrade_flag=0x0;bishop_upgrade_flag=0x0;preacher_upgrade_price=0xa;preacher_upgrade[_0x4575('0x55')](numT(preacher_upgrade_price)+_0x4575('0x9a'));church_upgrade_price=0xf4240;church_upgrade[_0x4575('0x55')]('$'+numT(church_upgrade_price));small_church_upgrade_price=0x186a0;monastery_upgrade_price=0x7a120;vatican_upgrade_price=0x1dcd6500;vatican_upgrade[_0x4575('0x55')]('$'+numT(vatican_upgrade_price));monk_upgrade_price=0x3e8;monk_upgrade['text']('$'+numT(monk_upgrade_price));bishop_upgrade_price=0x7a120;bishop_upgrade[_0x4575('0x55')]('$'+numT(bishop_upgrade_price));prestige_progress=0x0;prestige_limit_flag=0x0;if(prestige_limit==0x0){prestige_limit=0x7a120;}else{prestige_limit=prestige_limit+prestige_limit*0.3;}prestige_limit_label[_0x4575('0x55')](numT(prestige_limit));if(pilgrimage==0x2){pilgrimage=0x1;Pilgrimage();}SaveGame();}function Pilgrimage(){pilgrim_interval=setInterval(function(){money+=0x3e8;money_label[_0x4575('0x55')](numT(money));StoreState();PrestigeUpdate(0x64);},0x1f4);}function StoreState(){if(believers-preacher_upgrade_price>=0x0){preacher_upgrade[_0x4575('0x3b')]('disabled',![])['removeClass']('disabled2')[_0x4575('0x19')](_0x4575('0x77'));}else{preacher_upgrade[_0x4575('0x3b')]('disabled',!![])[_0x4575('0x8c')](_0x4575('0x77'))[_0x4575('0x19')](_0x4575('0xf'));}if(money-small_church_upgrade_price>=0x0){small_church_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),![])[_0x4575('0x8c')](_0x4575('0xf'))[_0x4575('0x19')]('button2');}else{small_church_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])['removeClass'](_0x4575('0x77'))['addClass'](_0x4575('0xf'));}if(money-church_upgrade_price>=0x0){church_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),![])[_0x4575('0x8c')](_0x4575('0xf'))[_0x4575('0x19')](_0x4575('0x77'));}else{church_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])[_0x4575('0x8c')](_0x4575('0x77'))['addClass']('disabled2');}if(money-monastery_upgrade_price>=0x0){monastery_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),![])[_0x4575('0x8c')]('disabled2')[_0x4575('0x19')](_0x4575('0x77'));}else{monastery_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])['removeClass'](_0x4575('0x77'))[_0x4575('0x19')](_0x4575('0xf'));}if(money-monk_upgrade_price>=0x0){monk_upgrade[_0x4575('0x3b')]('disabled',![])[_0x4575('0x8c')](_0x4575('0xf'))[_0x4575('0x19')](_0x4575('0x77'));}else{monk_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])['removeClass'](_0x4575('0x77'))[_0x4575('0x19')](_0x4575('0xf'));}if(money-cathedral_upgrade_price>=0x0){cathedral_upgrade['prop'](_0x4575('0xaa'),![])[_0x4575('0x8c')](_0x4575('0xf'))[_0x4575('0x19')](_0x4575('0x77'));}else{cathedral_upgrade['prop'](_0x4575('0xaa'),!![])[_0x4575('0x8c')](_0x4575('0x77'))[_0x4575('0x19')](_0x4575('0xf'));}if(money-vatican_upgrade_price>=0x0){vatican_upgrade[_0x4575('0x3b')]('disabled',![])['removeClass'](_0x4575('0xf'))[_0x4575('0x19')]('button2');}else{vatican_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])[_0x4575('0x8c')](_0x4575('0x77'))['addClass'](_0x4575('0xf'));}if(money-bishop_upgrade_price>=0x0){bishop_upgrade['prop'](_0x4575('0xaa'),![])[_0x4575('0x8c')]('disabled2')[_0x4575('0x19')](_0x4575('0x77'));}else{bishop_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])[_0x4575('0x8c')]('button2')[_0x4575('0x19')](_0x4575('0xf'));}if(believers-pope_upgrade_price>=0x0){pope_upgrade[_0x4575('0x3b')]('disabled',![])[_0x4575('0x8c')]('disabled2')[_0x4575('0x19')]('button2');}else{pope_upgrade[_0x4575('0x3b')](_0x4575('0xaa'),!![])[_0x4575('0x8c')](_0x4575('0x77'))[_0x4575('0x19')](_0x4575('0xf'));}}function EndGame(){clearInterval(preacher_interval);clearInterval(monk_interval);clearInterval(wedding_interval);clearInterval(holywater_interval);clearInterval(preach_interval);clearInterval(pray_interval);clearInterval(sins_interval);clearInterval(tax_interval);clearInterval(tele_interval);clearInterval(dj_interval);clearInterval(pilgrim_interval);store_table[_0x4575('0xab')]();inventory_table[_0x4575('0xab')]();prestige_table[_0x4575('0xab')]();player_table['hide']();$(_0x4575('0xa9'))[_0x4575('0x5')]();}function PreachEnable(){preach_button[_0x4575('0x3b')](_0x4575('0xaa'),![])['removeClass'](_0x4575('0xd'))['addClass'](_0x4575('0x38'));}function PreachDisable(){preach_button[_0x4575('0x3b')]('disabled',!![])['removeClass'](_0x4575('0x38'))['addClass']('disabled1');}function PrayEnable(){pray_button[_0x4575('0x3b')](_0x4575('0xaa'),![])[_0x4575('0x8c')](_0x4575('0xd'))[_0x4575('0x19')](_0x4575('0x38'));}function PrayDisable(){pray_button[_0x4575('0x3b')](_0x4575('0xaa'),!![])[_0x4575('0x8c')](_0x4575('0x38'))['addClass'](_0x4575('0xd'));}function numT(_0x19c7ee,_0x21e00e=0x2){_0x21e00e=Math[_0x4575('0x28')](0xa,_0x21e00e);var _0x42f672=['k','M','B','T','q','Q','s','S','o','n','d','U','D','Td','Qt','Qd','Sd','St','O','N','v','c','Na',_0x4575('0x78'),'Nb',_0x4575('0x41'),'Nc',_0x4575('0x5b'),'Nd',_0x4575('0x1c'),'Ne',_0x4575('0x8a'),'Nf',_0x4575('0xb1'),'Ng',_0x4575('0x8b'),'Nh',_0x4575('0x7c'),'Ni',_0x4575('0xb6'),'Nj','kNj','Nk',_0x4575('0x53'),'Nl','kNl','Nm',_0x4575('0x64'),'Nn',_0x4575('0xc'),'No',_0x4575('0x57'),'Np',_0x4575('0x33'),'Nq',_0x4575('0x4b'),'Nr',_0x4575('0x4c'),'Ns',_0x4575('0x39'),'Nt','kNt','Nu',_0x4575('0x2f'),'Nv','kNv','Nw',_0x4575('0xb5'),'Nx',_0x4575('0x8e'),'Ny',_0x4575('0x11'),'Nz',_0x4575('0x5d'),'cX','ccX','dX','ddX','eX',_0x4575('0x2e'),'fX',_0x4575('0x15'),'gX',_0x4575('0x70'),'hx',_0x4575('0x7b'),'iX',_0x4575('0x17'),'jX',_0x4575('0x62'),'kX',_0x4575('0x5a'),'lX',_0x4575('0x18'),'mX',_0x4575('0xb4'),'nX','nnX','oX',_0x4575('0x80'),'pX',_0x4575('0x3a'),'qX','qqX','rX',_0x4575('0x73'),'sX',_0x4575('0x2b'),'tX',_0x4575('0x95'),'uX',_0x4575('0xb0'),'vX',_0x4575('0x3c'),'wX',_0x4575('0x9d'),'xX',_0x4575('0x7d'),'yX',_0x4575('0x6f'),'zX',_0x4575('0x25'),'cM',_0x4575('0x58'),'dM',_0x4575('0x83'),'eM',_0x4575('0xa7'),'fM',_0x4575('0x56'),'gM',_0x4575('0x4'),'hM',_0x4575('0x87'),'iM',_0x4575('0x6d'),'jM',_0x4575('0x85'),'kM',_0x4575('0x6c'),'lM',_0x4575('0x1e'),'nM',_0x4575('0x4f'),'oM','ooM','pM',_0x4575('0x9f'),'qM',_0x4575('0x6b'),'rM',_0x4575('0x6a'),'sM',_0x4575('0x1a'),'tM','ttM','uM','uuM','vM',_0x4575('0xa3'),'wM',_0x4575('0x63'),'xM','xxM','yM',_0x4575('0x20'),'zM',_0x4575('0x7e')];for(var _0xd12dae=_0x42f672[_0x4575('0x21')]-0x1;_0xd12dae>=0x0;_0xd12dae--){var _0x29df3c=Math[_0x4575('0x28')](0xa,(_0xd12dae+0x1)*0x3);if(_0x29df3c<=_0x19c7ee){_0x19c7ee=Math[_0x4575('0x22')](_0x19c7ee*_0x21e00e/_0x29df3c)/_0x21e00e;if(_0x19c7ee==0x3e8&&_0xd12dae<_0x42f672[_0x4575('0x21')]-0x1){_0x19c7ee=0x1;_0xd12dae++;}_0x19c7ee+='\x20'+_0x42f672[_0xd12dae];break;}}return _0x19c7ee;}function progress(_0x7e6500,_0x4af5b8,_0x589d5c=0x0){var _0x2fb767=_0x7e6500*_0x4af5b8[_0x4575('0x6')]()/0x64;_0x4af5b8[_0x4575('0x9')](_0x4575('0x61'))[_0x4575('0x4a')]({'width':_0x2fb767},_0x589d5c);}function PlayAudio(_0xd2f8d9){switch(_0xd2f8d9){case 0x1:$('#audio_click')[0x0][_0x4575('0x50')](!![])[_0x4575('0x8d')]();break;case 0x2:$(_0x4575('0xa0'))[0x0][_0x4575('0x50')](!![])[_0x4575('0x8d')]();break;case 0x3:$(_0x4575('0x84'))[0x0][_0x4575('0x50')](!![])['play']();break;case 0x4:$(_0x4575('0x44'))[0x0][_0x4575('0x50')](!![])[_0x4575('0x8d')]();break;case 0x5:$(_0x4575('0x81'))[0x0][_0x4575('0x50')](!![])[_0x4575('0x8d')]();break;case 0x6:$(_0x4575('0x74'))[0x0]['cloneNode'](!![])[_0x4575('0x8d')]();break;case 0x7:$(_0x4575('0xe'))[0x0][_0x4575('0x50')](!![])[_0x4575('0x8d')]();break;case 0x8:$(_0x4575('0x96'))[0x0][_0x4575('0x50')](!![])[_0x4575('0x8d')]();break;case 0x9:$(_0x4575('0x99'))[0x0][_0x4575('0x50')](!![])['play']();break;}}
+</script>
+
+<div class="all" id="all">
+
+  <!--PLAYER-->
+  <table id="player_table">
+    <tr>
+      <td>Rank: <span id="rank_label"><b>Preacher</b></span></td>
+    </tr>
+    <tr id="holiness_block" style="display:none">
+      <td class="prestige_counter" id="holiness_sign">Holiness: <span id="holiness_label">0</span>/<span id="holiness_limit_label">1 k</span></td>
+    </tr>
+    <tr id="holiness_complete_block" style="display:none">
+      <td class="prestige_counter">Holiness: Complete Saint</td>
+    </tr>
+    <tr>
+      <td><div id="preach_pb" class="pb"><div></div></div></td>
+    </tr>
+    <tr>
+      <td><button class="button1" id="preach_button">Preach</button><button class="button1" id="pray_button" style="display:none">Pray</button></td>
+    </tr>
+  </table>
+
+  <br>
+
+  <!--INVENTORY-->
+  <table id="inventory_table">
+    <tr>
+      <td>
+        Believers:
+      </td>
+      <td><span id="believers_label">0</span></td>
+    </tr>
+    <tr>
+      <td>
+        Donations:
+      </td>
+      <td>$<span id="money_label">0</span></td>
+    </tr>
+    <tr id="prestige_counter" style="display:none">
+      <td class="prestige_counter">
+        Prestige:
+      </td>
+      <td class="prestige_counter"><span id="prestige_label">0</span> / <span id="prestige_limit_label">x</span></td>
+    </tr>
+  </table>
+
+  <br>
+  <br>
+
+  <!--PRESTIGE-->
+  <table id="prestige_table" class="prestige" style="display:none">
+    <tr class="prestige_hide">
+      <td class="store_item_content" id="prestige_hide">
+        Hide Prestige &#x25B2;
+      </td>
+    </tr>
+    <tr class="prestige_item">
+      <td class="store_item_content">
+        Procure a statue with the ability to cry tears of blood: a steady inflow of pilgrims and donations<br><br>
+        <button class="button2" id="pilgrimage_prestige_upgrade">Restart Game</button>
+      </td>
+    </tr>
+    <tr class="prestige_item">
+      <td class="store_item_content">
+        Pact with the devil: speed up all commercial activities by 10<br><br>
+        <button class="button2" id="speed_prestige_upgrade">Restart Game</button>
+      </td>
+    </tr>
+    <tr class="prestige_item">
+      <td class="store_item_content">
+        Group psychosis. Increase the effectiveness of preaching by 10<br><br>
+        <button class="button2" id="preaching_prestige_upgrade">Restart Game</button>
+      </td>
+    </tr>
+    <tr class="prestige_item">
+      <td class="store_item_content">
+        Saint status. Quadruple the effectiveness of praying<br><br>
+        <button class="button2" id="praying_prestige_upgrade">Restart Game</button>
+      </td>
+    </tr>
+    <tr class="prestige_item">
+      <td class="store_item_content">
+        <span id="tax_prestige_text">Lobbying. Increase church tax to $10 per believer</span><br>
+        Current tax: $<span id=current_tax_label>1</span><br><br>
+        <button class="button2" id="tax_prestige_upgrade">Restart Game</button>
+      </td>
+    </tr>
+  </table>
+
+  <!--STORE-->
+  <table id="store_table" style="display:none">
+    <tr>
+      <td class="upgrades_container">
+        <table class="store">
+
+          <tr class="store_item" id="preacher_block">
+            <td class="store_item_content">
+              Recruit preachers to help you spread the word<br>
+              Preachers: <span id="preacher_label">0</span><br><br>
+              <div id="preacher_pb" class="pb2" style="display:none"><div></div></div><br>
+              <button class="disabled2" id="preacher_upgrade">10 believers</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="small_church_block">
+            <td class="store_item_content">
+              Set up a small house church<br><br>
+              <button class="disabled2" id="small_church_upgrade">$100 k</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="tele_block" style="display:none">
+            <td class="store_item_content">
+              Use a televangelist to convert more people<br><br>
+              <div id="tele_pb" class="pb2" style="display:none"><div></div></div><br>
+              <button class="button2" id="tele_upgrade">Go</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="church_block" style="display:none">
+            <td class="store_item_content">
+              Build a church. Every church adds more believers<br>
+              Churches: <span id="church_label">0/5</span><br><br>
+              <button class="disabled2" id="church_upgrade">$2 M</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="monk_block" style="display:none">
+            <td class="store_item_content">
+              Invite a monk to make your mission holier<br>
+              Monks: <span id="monk_label">0</span><br><br>
+              <div id="monk_pb" class="pb2" style="display:none"><div></div></div><br>
+              <button class="disabled2" id="monk_upgrade">$1 k</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="monastery_block" style="display:none">
+            <td class="store_item_content">
+              Build a monastery<br><br>
+              <button class="disabled2" id="monastery_upgrade">$500 k</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="cathedral_block" style="display:none">
+            <td class="store_item_content">
+              Build a cathedral to become Bishop<br><br>
+              <button class="disabled2" id="cathedral_upgrade">$50 M</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="vatican_block" style="display:none">
+            <td class="store_item_content">
+              Make a small donation to Vatican to become Cardinal<br><br>
+              <button class="disabled2" id="vatican_upgrade">$500 M</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="pope_block" style="display:none">
+            <td class="store_item_content">
+              Become Pope<br><br>
+              <button class="disabled2" id="pope_upgrade">1 B believers</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="bishop_block" style="display:none">
+            <td class="store_item_content">
+              Support a bishop to assign their believers to your own<br><br>
+              <button class="disabled2" id="bishop_upgrade">$500 k</button>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+
+
+
+      <td class="upgrades_container">
+        <table class="store">
+
+          <tr class="store_item" id="wedding_block" style="display:none">
+            <td class="store_item_content">
+              Conduct a wedding ceremony<br><br>
+              <div id="wedding_pb" class="pb2" style="display:none"><div></div></div><br>
+              <button class="button2" id="wedding_upgrade">Earn $50 k</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="holywater_block" style="display:none">
+            <td class="store_item_content">
+              Sell holy water<br><br>
+              <div id="holywater_pb" class="pb2" style="display:none"><div></div></div><br>
+              <button class="button2" id="holywater_upgrade">Earn $100 k</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="sins_block" style="display:none">
+            <td class="store_item_content">
+              Forgive sins<br><br>
+              <div id="sins_pb" class="pb2" style="display:none"><div></div></div><br>
+              <button class="button2" id="sins_upgrade">Earn $200 k</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="dj_block" style="display:none">
+            <td class="store_item_content">
+              Rent out a church for an epic DJ performance<br><br>
+              <div id="dj_pb" class="pb2" style="display:none"><div></div></div><br>
+              <button class="button2" id="dj_upgrade">Earn $500 k</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="tax_block" style="display:none">
+            <td class="store_item_content">
+              Collect church tax<br><br>
+              <div id="tax_pb" class="pb2" style="display:none"><div></div></div><br>
+              <button class="button2" id="tax_upgrade">$1 per believer</button>
+            </td>
+          </tr>
+
+          <tr class="store_item" id="statue_block" style="display:none">
+            <td class="store_item_content">
+              Sell the statue that cries blood to a private worshipper<br><br>
+              <button class="button2" id="statue_upgrade">Earn $300 M</button>
+            </td>
+          </tr>
+
+
+
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <!--RESUME GAME-->
+  <div id="resume_game_block" style="display:none"><button class="button1" id="resume_game">Resume game</button></div>
+
+  <!--ENDGAME-->
+  <div id="endgame_block" style="display:none;width:50%">
+    You are now <b>Pope</b>, head of the worldwide Catholic Church, and head of state of Vatican City. Your spiritual influence extends across a billion people.
+    <br><br><br>
+    But the adventure does not have to end here. From this spot you have several options:
+    <br><br>
+    <ul>
+      <li><button class="button2" id="reset_game">Play "Become Pope" from start</button></li>
+      <li><a class="standard" href="https://louigiverona.com/bananas/" target="_blank">Eat bananas</a></li>
+      <li>Become a <a class="standard" href="https://louigiverona.com/perfectionist/" target="_blank">Perfectionist</a></li>
+      <li><a class="standard" href="https://louigiverona.com/vcf/" target="_blank">Build Verteron Controllers</a></li>
+    </ul>
+    <br><br>
+     Choose your path, adventurer!
+  </div>
+
+</div>
+
+<br><br>
+
+
+
+<div class="footer">
+  <button class="button2" id="dark">Dark mode</button>
+  <button class="button2" id="light" style="display:none">Light mode</button>
+  <span class="signature"><a class="standard" href="https://louigiverona.com">Louigi Verona's Workshop</a></span>
+</div>
+
+<audio id="audio_tick" src="snd/tick2.wav" preload="auto"></audio>
+<audio id="audio_click" src="snd/click4.wav" preload="auto"></audio>
+<audio id="audio_believer" src="snd/believer2.wav" preload="auto"></audio>
+<audio id="audio_church" src="snd/church2.wav" preload="auto"></audio>
+<audio id="audio_prestige" src="snd/prestige.wav" preload="auto"></audio>
+<audio id="audio_building" src="snd/building.wav" preload="auto"></audio>
+<audio id="audio_holiness" src="snd/holiness.wav" preload="auto"></audio>
+<audio id="audio_rank" src="snd/rank.wav" preload="auto"></audio>
+<audio id="audio_pope" src="snd/pope.wav" preload="auto"></audio>
+<!--客服 开始-->
+<link rel="stylesheet" href="//g8hh.github.io/static/css/kf.css" type="text/css" media="screen" charset="utf-8">
+<script src="//g8hh.github.io/static/js/kf.js"></script>
+<!-- 客服 结束 -->
+<!--站长统计-->
+    <div style="display: none">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?828597e93cee632465679b7ef35edfd5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>    </div>
+</body>
+</html>
